@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+    --color-navy-base: #060a14;
+    --color-navy-elevated: #0c1222;
+    --color-navy-card: #10192e;
+    --color-ivory: #f8f6f0;
+    --color-copper: #c59b6d;
+    --color-copper-light: #dfbe96;
+    --color-electric: #38bdf8;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-navy-base);
+    color: #e2e8f0;
+  }
+}
+
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Subtle Film Grain Texture Overlay */
+.cinema-grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom Fine Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080d1a;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Cinematic Video Letterbox Aspect ratios & Vignette */
+.cinematic-vignette {
+  background: radial-gradient(circle, rgba(0,0,0,0) 45%, rgba(6,10,20,0.88) 100%);
+}
+
+.cinematic-glow {
+  box-shadow: 0 0 50px -10px rgba(56, 189, 248, 0.15);
+}
+
+.copper-border-glow {
+  box-shadow: 0 0 25px -5px rgba(197, 155, 109, 0.15);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "EPMS — Enterprise Performance Management System",
+  "description": "Enterprise Employee Performance Management System. People. Performance. Progress. Advanced goal tracking, KPI measurement, continuous reviews, and team productivity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
